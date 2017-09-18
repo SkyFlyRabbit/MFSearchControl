@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		371FF5FB1F6FB24000CCC447 /* MFSearchControl.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 371FF5F61F6FB24000CCC447 /* MFSearchControl.bundle */; };
+		371FF5FC1F6FB24000CCC447 /* MFSearchController.m in Sources */ = {isa = PBXBuildFile; fileRef = 371FF5F81F6FB24000CCC447 /* MFSearchController.m */; };
+		371FF5FD1F6FB24000CCC447 /* MFSearchResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 371FF5FA1F6FB24000CCC447 /* MFSearchResultViewController.m */; };
+		371FF6001F6FB60A00CCC447 /* MF_RealTimeSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 371FF5FF1F6FB60A00CCC447 /* MF_RealTimeSearchViewController.m */; };
+		371FF6031F6FB61E00CCC447 /* MF_StaticSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 371FF6021F6FB61E00CCC447 /* MF_StaticSearchViewController.m */; };
+		371FF6061F6FB65600CCC447 /* MF_StudyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 371FF6051F6FB65600CCC447 /* MF_StudyViewController.m */; };
 		372AEDED1F6F90C30099DBC5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 372AEDEC1F6F90C30099DBC5 /* main.m */; };
 		372AEDF01F6F90C30099DBC5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 372AEDEF1F6F90C30099DBC5 /* AppDelegate.m */; };
 		372AEDF31F6F90C30099DBC5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 372AEDF21F6F90C30099DBC5 /* ViewController.m */; };
@@ -16,6 +22,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		371FF5F61F6FB24000CCC447 /* MFSearchControl.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MFSearchControl.bundle; sourceTree = "<group>"; };
+		371FF5F71F6FB24000CCC447 /* MFSearchController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFSearchController.h; sourceTree = "<group>"; };
+		371FF5F81F6FB24000CCC447 /* MFSearchController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFSearchController.m; sourceTree = "<group>"; };
+		371FF5F91F6FB24000CCC447 /* MFSearchResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFSearchResultViewController.h; sourceTree = "<group>"; };
+		371FF5FA1F6FB24000CCC447 /* MFSearchResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFSearchResultViewController.m; sourceTree = "<group>"; };
+		371FF5FE1F6FB60A00CCC447 /* MF_RealTimeSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MF_RealTimeSearchViewController.h; sourceTree = "<group>"; };
+		371FF5FF1F6FB60A00CCC447 /* MF_RealTimeSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MF_RealTimeSearchViewController.m; sourceTree = "<group>"; };
+		371FF6011F6FB61E00CCC447 /* MF_StaticSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MF_StaticSearchViewController.h; sourceTree = "<group>"; };
+		371FF6021F6FB61E00CCC447 /* MF_StaticSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MF_StaticSearchViewController.m; sourceTree = "<group>"; };
+		371FF6041F6FB65600CCC447 /* MF_StudyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MF_StudyViewController.h; sourceTree = "<group>"; };
+		371FF6051F6FB65600CCC447 /* MF_StudyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MF_StudyViewController.m; sourceTree = "<group>"; };
 		372AEDE81F6F90C30099DBC5 /* MFSearchControllerExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MFSearchControllerExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		372AEDEC1F6F90C30099DBC5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		372AEDEE1F6F90C30099DBC5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -39,6 +56,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		371FF5F51F6FB24000CCC447 /* MFSearchController */ = {
+			isa = PBXGroup;
+			children = (
+				371FF5F61F6FB24000CCC447 /* MFSearchControl.bundle */,
+				371FF5F71F6FB24000CCC447 /* MFSearchController.h */,
+				371FF5F81F6FB24000CCC447 /* MFSearchController.m */,
+				371FF5F91F6FB24000CCC447 /* MFSearchResultViewController.h */,
+				371FF5FA1F6FB24000CCC447 /* MFSearchResultViewController.m */,
+			);
+			path = MFSearchController;
+			sourceTree = "<group>";
+		};
 		372AEDDF1F6F90C30099DBC5 = {
 			isa = PBXGroup;
 			children = (
@@ -62,6 +91,13 @@
 				372AEDEF1F6F90C30099DBC5 /* AppDelegate.m */,
 				372AEDF11F6F90C30099DBC5 /* ViewController.h */,
 				372AEDF21F6F90C30099DBC5 /* ViewController.m */,
+				371FF6011F6FB61E00CCC447 /* MF_StaticSearchViewController.h */,
+				371FF6021F6FB61E00CCC447 /* MF_StaticSearchViewController.m */,
+				371FF5FE1F6FB60A00CCC447 /* MF_RealTimeSearchViewController.h */,
+				371FF5FF1F6FB60A00CCC447 /* MF_RealTimeSearchViewController.m */,
+				371FF6041F6FB65600CCC447 /* MF_StudyViewController.h */,
+				371FF6051F6FB65600CCC447 /* MF_StudyViewController.m */,
+				371FF5F51F6FB24000CCC447 /* MFSearchController */,
 				372AEDF41F6F90C30099DBC5 /* Main.storyboard */,
 				372AEDF71F6F90C30099DBC5 /* Assets.xcassets */,
 				372AEDF91F6F90C30099DBC5 /* LaunchScreen.storyboard */,
@@ -137,6 +173,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				371FF5FB1F6FB24000CCC447 /* MFSearchControl.bundle in Resources */,
 				372AEDFB1F6F90C30099DBC5 /* LaunchScreen.storyboard in Resources */,
 				372AEDF81F6F90C30099DBC5 /* Assets.xcassets in Resources */,
 				372AEDF61F6F90C30099DBC5 /* Main.storyboard in Resources */,
@@ -150,8 +187,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				371FF5FC1F6FB24000CCC447 /* MFSearchController.m in Sources */,
+				371FF5FD1F6FB24000CCC447 /* MFSearchResultViewController.m in Sources */,
 				372AEDF31F6F90C30099DBC5 /* ViewController.m in Sources */,
 				372AEDF01F6F90C30099DBC5 /* AppDelegate.m in Sources */,
+				371FF6031F6FB61E00CCC447 /* MF_StaticSearchViewController.m in Sources */,
+				371FF6061F6FB65600CCC447 /* MF_StudyViewController.m in Sources */,
+				371FF6001F6FB60A00CCC447 /* MF_RealTimeSearchViewController.m in Sources */,
 				372AEDED1F6F90C30099DBC5 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -311,6 +353,7 @@
 				372AEE011F6F90C30099DBC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

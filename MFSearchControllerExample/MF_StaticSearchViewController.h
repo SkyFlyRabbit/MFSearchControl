@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MF_StaticSearchViewController.h
 //  MFSearchControllerExample
 //
 //  Created by MF on 2017/9/18.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface MF_StaticSearchViewController : UIViewController
 
 @end
-
